@@ -1,0 +1,74 @@
+*{
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin:30px;
+}
+#main{
+    overflow-x:auto;
+}
+#search-button{
+    background-image: url("searchicon.png");
+    background-position: 10px 12px;
+    background-repeat: no-repeat; 
+    width: 100%;
+    font-size:16px;
+    padding: 12px 20px 12px 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 12px;
+  }
+
+#delete-selected{
+    font-size:16px;
+    padding: 12px 5px 12px 5px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+  }
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+tr{
+    border: 1px solid lightgrey;
+    height: 3rem;
+}
+tr:hover{
+    background-color: lightgrey;
+}
+tr.selected{
+    background-color: lightgrey;
+}
+tr:first-child:hover{
+    background-color:white;
+}
+th{
+    text-align:left;
+    padding-left:10px;
+}
+td{
+    padding-left:10px;
+}
+
+.nav{
+    margin-top:20px;
+    margin-bottom:20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+button{
+    background-color:white;
+    margin:2px;
+    border-color:lightgrey;
+}
+button:hover:not([disabled]){
+    color:white;
+    background-color:grey;
+}
+
+button.active{
+    color:white;
+    background-color:black;
+}

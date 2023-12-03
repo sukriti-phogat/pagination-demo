@@ -18,7 +18,7 @@ The application is deployed on Vercel and can be accessed [here](#insert-vercel-
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/sukriti-phogat/pagination.git
+   git clone https://github.com/sukriti-phogat/pagination-demo.git
    ```
 
 2. Open the `index.html` file in your preferred web browser.
